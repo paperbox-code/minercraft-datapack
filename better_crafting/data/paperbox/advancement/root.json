@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "Paper_Box__"
+                }
+            }
+        },
+        "title": "欢迎使用纸盒数据包！",
+        "description": "作者：Paperbox\n可在b站搜纸盒子PaperBox",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat" : false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "hidden": false
+    },
+    "criteria": {
+        "get_player":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { }
+    }
+    },
+    "rewards": {
+
+    }
+}

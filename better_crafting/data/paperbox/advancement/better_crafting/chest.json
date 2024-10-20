@@ -1,0 +1,47 @@
+{
+    "parent": "paperbox:better_crafting/root_of_recipes",
+    "display": {
+        "icon": {
+            "id": "minecraft:chest"
+        },
+        "title": "原木直接合成箱子",
+        "description":{
+            "text":"原木x8-->箱子x4\n竹块x8-->箱子x2\n原木包括方便红石玩家大量合成箱子的需求"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat" : true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_woods":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:logs"
+                    }
+                ]
+            }
+        },
+        "get_bamboos":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:bamboo_blocks"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements":[
+        ["get_bamboos","get_woods"]
+    ],
+    "rewards": {
+        "recipes": [
+            "paperbox:better_crafting/crafting_shaped/chest-2",
+            "paperbox:better_crafting/crafting_shaped/chest-4"
+        ]
+    }
+}

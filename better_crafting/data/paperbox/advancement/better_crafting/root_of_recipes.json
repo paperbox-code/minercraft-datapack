@@ -1,0 +1,27 @@
+{
+    "parent": "paperbox:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:crafting_table"
+        },
+        "title": "更好的合成配方v1.0",
+        "description":{
+            "text":"详细的配方合成请到b站"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat" : true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_player":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": { }
+    }
+    },
+    "rewards": {
+        "recipes": [
+
+        ]
+    }
+}

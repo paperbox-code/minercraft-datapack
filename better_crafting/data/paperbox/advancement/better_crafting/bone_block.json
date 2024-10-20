@@ -1,0 +1,37 @@
+{
+    "parent": "paperbox:better_crafting/root_of_recipes",
+    "display": {
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": "骨头直接合成骨快",
+        "description": {
+            "text": "新增3个配方：\n骨头x3-->骨快x1\n骨头x6-->骨快x2\n骨头x9-->骨快x3\n方便快速合成骨快，旧的骨粉合成骨快也可以用"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_bones": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bone"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "paperbox:better_crafting/crafting_shaped/bone_block_3",
+            "paperbox:better_crafting/crafting_shaped/bone_block_6",
+            "paperbox:better_crafting/crafting_shaped/bone_block_9"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "BOB",
+    "BPB"
+  ],
+  "key": {
+    "B": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "O": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "P": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "minecraft:piston",
+    "count": 1
+  }
+}

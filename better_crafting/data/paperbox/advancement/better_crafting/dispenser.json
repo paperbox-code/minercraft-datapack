@@ -1,0 +1,37 @@
+{
+    "parent": "paperbox:better_crafting/root_of_recipes",
+    "display": {
+        "icon": {
+            "id": "minecraft:bow"
+        },
+        "title": "发射器便捷合成",
+        "description":{
+            "text":"新加两个配方：\n投掷器x1+弓x1-->发射器x1\n投掷器x1+木棍x3+线x3-->发射器x1\n方便红石玩家批量合成发射器，旧的配方也能用"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat" : true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_dispenser":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:dispenser"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+
+    "rewards": {
+        "recipes": [
+            "paperbox:better_crafting/crafting_shapeless/dispenser",
+            "paperbox:better_crafting/crafting_shaped/dispenser"
+        ]
+    }
+}

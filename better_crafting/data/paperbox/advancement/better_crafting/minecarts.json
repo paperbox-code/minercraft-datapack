@@ -1,0 +1,45 @@
+{
+    "parent": "paperbox:better_crafting/root_of_recipes",
+    "display": {
+        "icon": {
+            "id": "minecraft:minecart",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "功能矿车便捷合成",
+        "description":{
+            "text":"新加4个配方：\n铁锭x5+漏斗x1-->漏斗矿车x1\n铁锭x5+TNTx1-->TNT矿车x1\n铁锭x5+熔炉x1-->动力矿车x1\n铁锭x5+箱子x1-->箱子矿车x1\n方便红石玩家，旧的配方也能用"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat" : true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_items":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:hopper_minecart",
+                            "minecraft:tnt_minecart",
+                            "minecraft:chest_minecart",
+                            "minecraft:furnace_minecart"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "paperbox:better_crafting/crafting_shaped/hopper_minecart",
+            "paperbox:better_crafting/crafting_shaped/tnt_minecart",
+            "paperbox:better_crafting/crafting_shaped/furnace_minecart",
+            "paperbox:better_crafting/crafting_shaped/chest_minecart"
+
+        ]
+    }
+}

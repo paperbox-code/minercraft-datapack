@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XOX",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "paperbox:stones"
+    },
+    "O": {
+      "item": "minecraft:quartz"
+    },
+    "X": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "id": "minecraft:comparator",
+    "count": 1
+  }
+}

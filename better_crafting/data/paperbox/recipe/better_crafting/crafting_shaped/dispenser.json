@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BX",
+    "BOX",
+    " BX"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "minecraft:dropper"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:dispenser",
+    "count": 1
+  }
+}

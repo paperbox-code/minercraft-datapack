@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BOB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace_minecart",
+    "count": 1
+  }
+}

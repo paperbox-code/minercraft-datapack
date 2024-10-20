@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "paperbox:stones"
+    },
+    "O": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "id": "minecraft:repeater",
+    "count": 1
+  }
+}
